@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.globalactionbarservice">
 
+    <queries>
+        <package android:name="com.VCB" />
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:label="@string/app_name"
         android:supportsRtl="true"
